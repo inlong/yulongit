@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能安防系统 - 誉隆科技</title>
+    <meta name="description" content="智能安防系统解决方案,提供视频监控、楼宇对讲、红外报警、门禁控制、电子围栏、巡检管理全方位安防服务。">
+    <meta name="keywords" content="智能安防,视频监控,楼宇对讲,红外报警,门禁系统,电子围栏,巡检系统,天津安防,誉隆科技,安防监控">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="author" content="天津誉隆科技有限公司">
+    <link rel="canonical" href="https://www.yulongit.com/smart-security.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="誉隆科技">
+    <meta property="og:url" content="https://www.yulongit.com/smart-security.html">
+    <meta property="og:title" content="智能安防系统 - 誉隆科技">
+    <meta property="og:description" content="智能安防系统解决方案,提供视频监控、楼宇对讲、红外报警、门禁控制、电子围栏、巡检管理全方位安防服务。">
+    <meta property="og:image" content="https://www.yulongit.com/img/og-image.jpg">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="智能安防系统 - 誉隆科技">
+    <meta name="twitter:description" content="智能安防系统解决方案,提供视频监控、楼宇对讲、红外报警、门禁控制、电子围栏、巡检管理全方位安防服务。">
+    <link rel="preconnect" href="https://www.yulongit.com">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "智能安防系统",
+      "description": "全方位的智能安防解决方案,包括视频监控、巡检系统、门禁控制等,保障企业安全。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "天津誉隆科技有限公司",
+        "url": "https://www.yulongit.com/",
+        "telephone": "+8613810018676"
+      },
+      "serviceType": "智能安防",
+      "areaServed": {
+        "@type": "Country",
+        "name": "中国"
+      },
+      "url": "https://www.yulongit.com/smart-security.html"
+    }
+    </script>
+    <link rel="icon" href="https://www.yulongit.com/img/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-light: #f8fafc;
+            --white: #ffffff;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            --gradient-secondary: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            line-height: 1.8;
+            color: var(--text-dark);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        header {
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 1.8em;
+            font-weight: 800;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 1.05em;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .nav-menu a:hover {
+            color: var(--primary-color);
+        }
+
+        .hero {
+            background: var(--gradient-primary);
+            color: var(--white);
+            padding: 180px 0 120px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            font-size: 1.4em;
+            opacity: 0.95;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+        }
+
+        section {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 2.8em;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .section-title p {
+            color: var(--text-light);
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 35px;
+            margin-bottom: 60px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 45px;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            border: 1px solid #e2e8f0;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2em;
+            margin-bottom: 25px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.6em;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        .detailed-section {
+            background: var(--bg-light);
+        }
+
+        .detailed-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .detail-item {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-sm);
+            margin-bottom: 30px;
+        }
+
+        .detail-item h3 {
+            font-size: 1.5em;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .detail-item ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .detail-item ul li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            color: var(--text-dark);
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .detail-item ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .benefits-section {
+            background: var(--gradient-secondary);
+            color: var(--white);
+        }
+
+        .benefits-section .section-title h2,
+        .benefits-section .section-title p {
+            color: var(--white);
+        }
+
+        .benefits-section .section-title p {
+            opacity: 0.9;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 35px;
+        }
+
+        .benefit-item {
+            text-align: center;
+            padding: 35px 25px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .benefit-number {
+            font-size: 3.5em;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 15px;
+            opacity: 0.3;
+        }
+
+        .benefit-item h4 {
+            font-size: 1.3em;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .benefit-item p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        footer {
+            background: var(--gradient-secondary);
+            color: var(--white);
+            padding: 80px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .footer-brand p {
+            opacity: 0.85;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .footer-links h4 {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+            padding-left: 5px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            text-align: center;
+            opacity: 0.85;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 25px;
+            background: var(--bg-light);
+            color: var(--text-dark);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 2.8em;
+            }
+
+            .detailed-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+
+            .hero {
+                padding: 140px 0 80px;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .section-title h2 {
+                font-size: 2em;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">🏢 誉隆科技</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#features">核心功能</a></li>
+                <li><a href="#detailed">详细介绍</a></li>
+                <li><a href="#benefits">核心优势</a></li>
+                <li><a href="index.html#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+    <section class="hero">
+        <div class="container">
+            <a href="index.html" class="back-btn">← 返回首页</a>
+            <h1>智能安防系统</h1>
+            <p>全方位的智能安防解决方案,保障企业、社区、园区的安全</p>
+            <a href="#features" class="btn btn-primary">了解更多</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>核心安防功能</h2>
+                <p>为您提供全方位的智能安防解决方案</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📹</div>
+                    <h3>视频监控系统</h3>
+                    <p>高清视频监控,24小时不间断录制,实时监控与回放,全方位保障安全</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h3>楼宇可视对讲系统</h3>
+                    <p>现代化的楼宇对讲系统,支持视频通话、远程开锁,提升居住安全性</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🚨</div>
+                    <h3>红外入侵报警系统</h3>
+                    <p>红外探测报警,及时发现非法入侵,自动报警推送,快速响应</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔑</div>
+                    <h3>门禁控制系统</h3>
+                    <p>智能门禁管理,支持人脸识别、指纹、IC卡等多种开门方式</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🚧</div>
+                    <h3>电子围栏系统</h3>
+                    <p>周界电子围栏,脉冲式威慑,有效防止翻越,保障区域安全</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👮</div>
+                    <h3>巡检管理系统</h3>
+                    <p>智能巡检管理,巡检路线规划、打卡记录、异常上报,提升管理效率</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="detailed-section" id="detailed">
+        <div class="container">
+            <div class="section-title">
+                <h2>功能详细介绍</h2>
+                <p>深入了解每个安防系统的具体功能和价值</p>
+            </div>
+            <div class="detailed-grid">
+                <div>
+                    <div class="detail-item">
+                        <h3>📹 视频监控系统</h3>
+                        <p>高清视频监控,24小时不间断录制,实时监控与回放,全方位保障安全</p>
+                        <ul>
+                            <li>4K超高清摄像头,画质清晰</li>
+                            <li>24小时不间断录像存储</li>
+                            <li>移动侦测与智能报警</li>
+                            <li>手机APP远程实时查看</li>
+                            <li>历史录像快速检索</li>
+                            <li>多画面同时监控</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>🏢 楼宇可视对讲系统</h3>
+                        <p>现代化的楼宇对讲系统,支持视频通话、远程开锁,提升居住安全性</p>
+                        <ul>
+                            <li>7英寸高清彩色屏幕</li>
+                            <li>支持视频通话与语音对讲</li>
+                            <li>远程一键开锁</li>
+                            <li>访客信息记录与拍照</li>
+                            <li>支持电梯联动</li>
+                            <li>物业通知信息推送</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>🚨 红外入侵报警系统</h3>
+                        <p>红外探测报警,及时发现非法入侵,自动报警推送,快速响应</p>
+                        <ul>
+                            <li>高精度红外探测技术</li>
+                            <li>宠物防误报功能</li>
+                            <li>多种报警方式(声光、短信、APP)</li>
+                            <li>布防、撤防、在家模式</li>
+                            <li>报警实时推送通知</li>
+                            <li>报警记录查询与导出</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="detail-item">
+                        <h3>🔑 门禁控制系统</h3>
+                        <p>智能门禁管理,支持人脸识别、指纹、IC卡等多种开门方式</p>
+                        <ul>
+                            <li>人脸识别开门,无接触通行</li>
+                            <li>指纹识别,精准高效</li>
+                            <li>IC卡、密码多种开门方式</li>
+                            <li>门禁权限分级管理</li>
+                            <li>进出记录实时查询</li>
+                            <li>远程临时授权</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>🚧 电子围栏系统</h3>
+                        <p>周界电子围栏,脉冲式威慑,有效防止翻越,保障区域安全</p>
+                        <ul>
+                            <li>高压脉冲威慑,有效防翻越</li>
+                            <li>触网报警与断网报警</li>
+                            <li>不锈钢合金线,坚固耐用</li>
+                            <li>智能主机,故障自检</li>
+                            <li>与视频监控联动</li>
+                            <li>防雷击、防短路保护</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>👮 巡检管理系统</h3>
+                        <p>智能巡检管理,巡检路线规划、打卡记录、异常上报,提升管理效率</p>
+                        <ul>
+                            <li>巡检路线智能规划</li>
+                            <li>NFC/二维码巡检打卡</li>
+                            <li>巡检照片与视频上传</li>
+                            <li>巡检异常实时上报</li>
+                            <li>巡检记录统计分析</li>
+                            <li>巡检人员GPS定位</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>核心优势</h2>
+                <p>选择我们智能安防系统的六大理由</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-number">01</div>
+                    <h4>智能联动</h4>
+                    <p>各系统智能联动,提升安防效率</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">02</div>
+                    <h4>远程管理</h4>
+                    <p>手机APP远程监控,随时随地查看</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">03</div>
+                    <h4>智能分析</h4>
+                    <p>AI智能分析,精准识别异常</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">04</div>
+                    <h4>稳定可靠</h4>
+                    <p>工业级设备,24小时稳定运行</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">05</div>
+                    <h4>易于扩展</h4>
+                    <p>模块化设计,支持灵活扩展</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">06</div>
+                    <h4>专业服务</h4>
+                    <p>专业团队提供一站式服务</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>🏢 誉隆科技</h3>
+                    <p>天津誉隆科技有限公司是一家专业的企业数智化服务商,致力于为企业提供优质的数字化解决方案。</p>
+                    <p>秉承"信誉筑基·兴隆有道"的理念,助力企业实现数字化转型。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速导航</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="#features">核心功能</a></li>
+                        <li><a href="#detailed">详细介绍</a></li>
+                        <li><a href="#benefits">核心优势</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>业务介绍</h4>
+                    <ul>
+                        <li><a href="oa-platform.html">OA协同办公</a></li>
+                        <li><a href="security-services.html">网络安全服务</a></li>
+                        <li><a href="server-parking.html">机房建设</a></li>
+                        <li><a href="smart-security.html">智慧停车</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li>📞 +86 138 1001 8676</li>
+                        <li>✉️ service@yulongit.com</li>
+                        <li>📍 天津市</li>
+                        <li><a href="index.html#contact">在线咨询</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 天津誉隆科技有限公司 版权所有 | 专业的企业数智化服务商</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

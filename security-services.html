@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>等保测评与网络安全 - 誉隆科技</title>
+    <meta name="description" content="誉隆科技等保测评与网络安全服务,提供专业的等保测评、网络安全规划、渗透测试、漏洞扫描等服务,全方位保护企业信息安全">
+    <meta name="keywords" content="等保测评,网络安全,等级保护,渗透测试,漏洞扫描,信息安全,等保2.0,天津等保,誉隆科技,安全加固">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="author" content="天津誉隆科技有限公司">
+    <link rel="canonical" href="https://www.yulongit.com/security-services.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="誉隆科技">
+    <meta property="og:url" content="https://www.yulongit.com/security-services.html">
+    <meta property="og:title" content="等保测评与网络安全 - 誉隆科技">
+    <meta property="og:description" content="誉隆科技等保测评与网络安全服务,提供专业的等保测评、网络安全规划、渗透测试、漏洞扫描等服务,全方位保护企业信息安全">
+    <meta property="og:image" content="https://www.yulongit.com/img/og-image.jpg">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="等保测评与网络安全 - 誉隆科技">
+    <meta name="twitter:description" content="誉隆科技等保测评与网络安全服务,提供专业的等保测评、网络安全规划、渗透测试、漏洞扫描等服务">
+    <link rel="preconnect" href="https://www.yulongit.com">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "等保测评与网络安全服务",
+      "description": "专业的等保测评、网络安全规划、渗透测试、漏洞扫描服务,全方位保护企业信息安全,满足等保合规要求。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "天津誉隆科技有限公司",
+        "url": "https://www.yulongit.com/",
+        "telephone": "+8613810018676"
+      },
+      "serviceType": "网络安全服务",
+      "areaServed": {
+        "@type": "Country",
+        "name": "中国"
+      },
+      "url": "https://www.yulongit.com/security-services.html"
+    }
+    </script>
+    <link rel="icon" href="https://www.yulongit.com/img/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-light: #f8fafc;
+            --white: #ffffff;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            --gradient-secondary: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', sans-serif;
+            line-height: 1.8;
+            color: var(--text-dark);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        header.scrolled {
+            box-shadow: var(--shadow-md);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 1.8em;
+            font-weight: 800;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 1.05em;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .nav-menu a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: var(--transition);
+        }
+
+        .nav-menu a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-primary);
+            color: var(--white);
+            padding: 180px 0 120px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 800;
+            margin-bottom: 25px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero p {
+            font-size: 1.4em;
+            opacity: 0.95;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Section Styling */
+        section {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 2.8em;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .section-title p {
+            color: var(--text-light);
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 35px;
+            margin-bottom: 60px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 45px;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            border: 1px solid #e2e8f0;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2em;
+            margin-bottom: 25px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.6em;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: var(--text-light);
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .feature-card ul {
+            list-style: none;
+        }
+
+        .feature-card ul li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            color: var(--text-dark);
+            font-size: 1.05em;
+        }
+
+        .feature-card ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        /* Detailed Section */
+        .detailed-section {
+            background: var(--bg-light);
+        }
+
+        .detailed-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .detail-item {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-sm);
+            margin-bottom: 30px;
+        }
+
+        .detail-item h3 {
+            font-size: 1.5em;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .detail-item p {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .detail-item ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .detail-item ul li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            color: var(--text-dark);
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .detail-item ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        /* Benefits Section */
+        .benefits-section {
+            background: var(--gradient-secondary);
+            color: var(--white);
+        }
+
+        .benefits-section .section-title h2,
+        .benefits-section .section-title p {
+            color: var(--white);
+        }
+
+        .benefits-section .section-title p {
+            opacity: 0.9;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+        }
+
+        .benefit-item {
+            text-align: center;
+            padding: 35px 25px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .benefit-number {
+            font-size: 3.5em;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 15px;
+            opacity: 0.3;
+        }
+
+        .benefit-item h4 {
+            font-size: 1.3em;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .benefit-item p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            background: var(--bg-light);
+        }
+
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: 2.5em;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+
+        .cta-content p {
+            font-size: 1.2em;
+            color: var(--text-light);
+            margin-bottom: 40px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--gradient-secondary);
+            color: var(--white);
+            padding: 80px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .footer-brand p {
+            opacity: 0.85;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .footer-links h4 {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+            padding-left: 5px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            text-align: center;
+            opacity: 0.85;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 25px;
+            background: var(--bg-light);
+            color: var(--text-dark);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 2.8em;
+            }
+
+            .detailed-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+
+            .hero {
+                padding: 140px 0 80px;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1.1em;
+            }
+
+            .section-title h2 {
+                font-size: 2em;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">
+                🏢 誉隆科技
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#features">核心服务</a></li>
+                <li><a href="#detailed">详细介绍</a></li>
+                <li><a href="#benefits">核心优势</a></li>
+                <li><a href="index.html#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <a href="index.html" class="back-btn">← 返回首页</a>
+            <h1>等保测评与网络安全服务</h1>
+            <p>专业的网络安全解决方案,保护企业数字资产安全,满足等保合规要求</p>
+            <a href="#features" class="btn btn-primary">了解更多</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>核心服务</h2>
+                <p>专业的网络安全服务,助力企业构建安全可靠的信息化环境</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>等保测评服务</h3>
+                    <p>提供等保2.0一站式测评服务,帮助企业通过等保认证,满足法律法规要求</p>
+                    <ul>
+                        <li>等级保护定级备案</li>
+                        <li>差距分析与整改</li>
+                        <li>等保测评实施</li>
+                        <li>测评报告出具</li>
+                        <li>持续合规咨询</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>网络安全规划</h3>
+                    <p>量身定制的网络安全架构设计,建立多层次的安全防护体系</p>
+                    <ul>
+                        <li>安全架构设计</li>
+                        <li>网络边界防护</li>
+                        <li>访问控制策略</li>
+                        <li>安全区域划分</li>
+                        <li>应急响应方案</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>渗透测试服务</h3>
+                    <p>模拟真实攻击场景,发现系统安全漏洞,提前防范安全风险</p>
+                    <ul>
+                        <li>应用层渗透测试</li>
+                        <li>网络层渗透测试</li>
+                        <li>社会工程学测试</li>
+                        <li>漏洞分析与报告</li>
+                        <li>修复建议与验证</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>漏洞扫描服务</h3>
+                    <p>全面的漏洞扫描评估,识别系统中潜在的安全隐患和弱点</p>
+                    <ul>
+                        <li>主机漏洞扫描</li>
+                        <li>Web应用扫描</li>
+                        <li>数据库安全扫描</li>
+                        <li>配置审计</li>
+                        <li>定期扫描服务</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🚨</div>
+                    <h3>安全监测与加固</h3>
+                    <p>7×24小时安全监控,实时发现和应对安全威胁,持续优化安全防护</p>
+                    <ul>
+                        <li>实时安全监控</li>
+                        <li>入侵检测与防御</li>
+                        <li>安全事件响应</li>
+                        <li>系统安全加固</li>
+                        <li>安全运维服务</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Section -->
+    <section class="detailed-section" id="detailed">
+        <div class="container">
+            <div class="section-title">
+                <h2>服务详细介绍</h2>
+                <p>深入了解每个服务模块的具体内容与价值</p>
+            </div>
+            <div class="detailed-grid">
+                <div>
+                    <div class="detail-item">
+                        <h3>🔐 等保测评服务</h3>
+                        <p>等保测评(等级保护测评)是依据国家网络安全等级保护制度,对信息系统安全保护能力进行评估的活动。誉隆科技拥有一支专业的等保测评团队,提供从定级备案到测评认证的全流程服务。</p>
+                        
+                        <p><strong>等保测评流程:</strong></p>
+                        <ul>
+                            <li><strong>系统定级</strong>: 根据信息系统的重要性和业务影响,确定等级保护级别</li>
+                            <li><strong>专家评审</strong>: 组织专家对定级结果进行评审和确认</li>
+                            <li><strong>定级备案</strong>: 向公安机关网络安全保卫部门提交备案申请</li>
+                            <li><strong>差距分析</strong>: 对照等保标准要求,分析现有系统的差距</li>
+                            <li><strong>整改建设</strong>: 根据差距分析结果,进行安全建设和整改</li>
+                            <li><strong>等级测评</strong>: 第三方测评机构进行全面测评,出具测评报告</li>
+                            <li><strong>监督检查</strong>: 接受公安机关的监督检查和指导</li>
+                        </ul>
+
+                        <p><strong>等保测评主要内容:</strong></p>
+                        <ul>
+                            <li>安全物理环境: 机房、网络设备、服务器等物理设施安全</li>
+                            <li>安全通信网络: 网络架构、通信传输、网络边界防护</li>
+                            <li>安全区域边界: 边界防护、访问控制、入侵防范、恶意代码防范</li>
+                            <li>安全计算环境: 身份鉴别、访问控制、安全审计、入侵防范</li>
+                            <li>安全管理中心: 系统管理、审计管理、集中管控</li>
+                            <li>安全管理制度: 安全管理制度、安全管理机构、人员安全管理</li>
+                            <li>安全管理人员: 人员录用、人员离岗、安全意识教育和培训</li>
+                            <li>安全建设管理: 工程实施、测试验收、系统交付、服务采购</li>
+                            <li>安全运维管理: 环境管理、资产管理、介质管理、设备维护</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="detail-item">
+                        <h3>🛡️ 网络安全规划</h3>
+                        <p>网络安全规划是企业信息安全建设的核心,誉隆科技根据企业实际需求,量身定制网络安全架构设计方案,建立多层次、全方位的安全防护体系。</p>
+                        
+                        <p><strong>规划设计内容:</strong></p>
+                        <ul>
+                            <li><strong>安全架构设计</strong>: 基于零信任架构,设计适应云原生环境的安全体系</li>
+                            <li><strong>网络边界防护</strong>: 部署下一代防火墙,实现细粒度的访问控制</li>
+                            <li><strong>访问控制策略</strong>: RBAC角色权限模型,最小权限原则</li>
+                            <li><strong>安全区域划分</strong>: 根据业务需求划分DMZ、内网、核心数据区</li>
+                            <li><strong>应急响应方案</strong>: 制定完善的安全事件应急响应预案</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>🔍 渗透测试服务</h3>
+                        <p>渗透测试通过模拟黑客攻击手段,主动发现系统存在的安全漏洞,验证安全防护体系的有效性,为安全加固提供依据。</p>
+                        
+                        <p><strong>测试方法:</strong></p>
+                        <ul>
+                            <li><strong>应用层渗透测试</strong>: Web应用安全、API安全、移动应用安全</li>
+                            <li><strong>网络层渗透测试</strong>: 内网渗透、外网渗透、无线网络安全</li>
+                            <li><strong>社会工程学测试</strong>: 钓鱼邮件、电话诈骗、物理入侵测试</li>
+                            <li><strong>漏洞分析与报告</strong>: 详细漏洞描述、风险评估、修复建议</li>
+                            <li><strong>修复建议与验证</strong>: 协助修复漏洞并进行回归测试验证</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>📊 漏洞扫描服务</h3>
+                        <p>使用专业漏洞扫描工具,对企业的IT基础设施进行全面扫描,及时发现潜在的安全隐患和弱点。</p>
+                        
+                        <p><strong>扫描范围:</strong></p>
+                        <ul>
+                            <li><strong>主机漏洞扫描</strong>: 操作系统漏洞、服务漏洞、配置错误</li>
+                            <li><strong>Web应用扫描</strong>: OWASP Top 10漏洞、SQL注入、XSS等</li>
+                            <li><strong>数据库安全扫描</strong>: 数据库漏洞、弱口令、权限配置</li>
+                            <li><strong>配置审计</strong>: 安全配置检查、合规性审计</li>
+                            <li><strong>定期扫描服务</strong>: 每季度或每月定期扫描,持续监控</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>核心优势</h2>
+                <p>选择誉隆科技,您将获得专业的安全保障</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-number">01</div>
+                    <h4>专业团队</h4>
+                    <p>持证等保测评师、网络安全专家,经验丰富的技术团队</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">02</div>
+                    <h4>快速响应</h4>
+                    <p>7×24小时应急响应,快速处置安全事件,降低损失</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">03</div>
+                    <h4>安全可靠</h4>
+                    <p>符合国家标准的安全体系,严格的保密协议,数据安全保障</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">04</div>
+                    <h4>定制方案</h4>
+                    <p>根据企业实际情况,量身定制安全解决方案,精准匹配需求</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">05</div>
+                    <h4>一站式服务</h4>
+                    <p>从咨询规划到实施运维,提供全生命周期安全服务</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">06</div>
+                    <h4>持续优化</h4>
+                    <p>定期安全评估,持续优化安全防护体系,适应新威胁</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>准备好保护您的企业安全了吗?</h2>
+                <p>立即联系我们,获取专业的网络安全解决方案</p>
+                <a href="index.html#contact" class="btn btn-primary">立即咨询</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>🏢 誉隆科技</h3>
+                    <p>天津誉隆科技有限公司是一家专业的企业数智化服务商,致力于为企业提供优质的数字化解决方案。</p>
+                    <p>秉承"信誉筑基·兴隆有道"的理念,助力企业实现数字化转型。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速导航</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="#features">核心服务</a></li>
+                        <li><a href="#detailed">详细介绍</a></li>
+                        <li><a href="#benefits">核心优势</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>业务介绍</h4>
+                    <ul>
+                        <li><a href="oa-platform.html">OA协同办公</a></li>
+                        <li><a href="security-services.html">网络安全服务</a></li>
+                        <li><a href="server-parking.html">机房建设</a></li>
+                        <li><a href="smart-security.html">智慧停车</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li>📞 +86 138 1001 8676</li>
+                        <li>✉️ service@yulongit.com</li>
+                        <li>📍 天津市</li>
+                        <li><a href="index.html#contact">在线咨询</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 天津誉隆科技有限公司 版权所有 | 专业的企业数智化服务商</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .detail-item, .benefit-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.yulongit.com/sitemap.xml
+
+# Crawl-delay: 10

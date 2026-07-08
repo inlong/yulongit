@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据分析与BI - 誉隆科技</title>
+    <meta name="description" content="数据分析与商业智能解决方案,提供数据可视化大屏、智能报表系统、数据分析与挖掘、KPI监控仪表盘、预测分析模型等服务。">
+    <meta name="keywords" content="数据分析,商业智能,BI,数据可视化,数据大屏,智能报表,数据挖掘,预测分析,KPI仪表盘,誉隆科技,天津BI">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="author" content="天津誉隆科技有限公司">
+    <link rel="canonical" href="https://www.yulongit.com/data-bi.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="誉隆科技">
+    <meta property="og:url" content="https://www.yulongit.com/data-bi.html">
+    <meta property="og:title" content="数据分析与BI - 誉隆科技">
+    <meta property="og:description" content="数据分析与商业智能解决方案,提供数据可视化大屏、智能报表系统、数据分析与挖掘、KPI监控仪表盘、预测分析模型等服务。">
+    <meta property="og:image" content="https://www.yulongit.com/img/og-image.jpg">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="数据分析与BI - 誉隆科技">
+    <meta name="twitter:description" content="数据分析与商业智能解决方案,提供数据可视化大屏、智能报表系统、数据分析与挖掘、KPI监控仪表盘等服务。">
+    <link rel="preconnect" href="https://www.yulongit.com">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "数据分析与BI",
+      "description": "专业的数据分析与商业智能解决方案,帮助企业挖掘数据价值,支持科学决策。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "天津誉隆科技有限公司",
+        "url": "https://www.yulongit.com/",
+        "telephone": "+8613810018676"
+      },
+      "serviceType": "数据分析与商业智能",
+      "areaServed": {
+        "@type": "Country",
+        "name": "中国"
+      },
+      "url": "https://www.yulongit.com/data-bi.html"
+    }
+    </script>
+    <link rel="icon" href="https://www.yulongit.com/img/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-light: #f8fafc;
+            --white: #ffffff;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            --gradient-secondary: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            line-height: 1.8;
+            color: var(--text-dark);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        header {
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 1.8em;
+            font-weight: 800;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 1.05em;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .nav-menu a:hover {
+            color: var(--primary-color);
+        }
+
+        .hero {
+            background: var(--gradient-primary);
+            color: var(--white);
+            padding: 180px 0 120px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            font-size: 1.4em;
+            opacity: 0.95;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+        }
+
+        section {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 2.8em;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .section-title p {
+            color: var(--text-light);
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 35px;
+            margin-bottom: 60px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 45px;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            border: 1px solid #e2e8f0;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2em;
+            margin-bottom: 25px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.6em;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        .detailed-section {
+            background: var(--bg-light);
+        }
+
+        .detailed-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .detail-item {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-sm);
+            margin-bottom: 30px;
+        }
+
+        .detail-item h3 {
+            font-size: 1.5em;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .detail-item ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .detail-item ul li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            color: var(--text-dark);
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .detail-item ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .benefits-section {
+            background: var(--gradient-secondary);
+            color: var(--white);
+        }
+
+        .benefits-section .section-title h2,
+        .benefits-section .section-title p {
+            color: var(--white);
+        }
+
+        .benefits-section .section-title p {
+            opacity: 0.9;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 35px;
+        }
+
+        .benefit-item {
+            text-align: center;
+            padding: 35px 25px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .benefit-number {
+            font-size: 3.5em;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 15px;
+            opacity: 0.3;
+        }
+
+        .benefit-item h4 {
+            font-size: 1.3em;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .benefit-item p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        footer {
+            background: var(--gradient-secondary);
+            color: var(--white);
+            padding: 80px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .footer-brand p {
+            opacity: 0.85;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .footer-links h4 {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+            padding-left: 5px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            text-align: center;
+            opacity: 0.85;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 25px;
+            background: var(--bg-light);
+            color: var(--text-dark);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 2.8em;
+            }
+
+            .detailed-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+
+            .hero {
+                padding: 140px 0 80px;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .section-title h2 {
+                font-size: 2em;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">🏢 誉隆科技</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#services">核心服务</a></li>
+                <li><a href="#detailed">详细介绍</a></li>
+                <li><a href="#benefits">核心优势</a></li>
+                <li><a href="index.html#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+    <section class="hero">
+        <div class="container">
+            <a href="index.html" class="back-btn">← 返回首页</a>
+            <h1>数据分析与BI</h1>
+            <p>专业的数据分析与商业智能解决方案,帮助企业挖掘数据价值,支持科学决策</p>
+            <a href="#services" class="btn btn-primary">了解更多</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>核心数据服务</h2>
+                <p>为您提供全方位的数据分析与商业智能解决方案</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>数据可视化大屏</h3>
+                    <p>炫酷的数据可视化大屏,实时展示关键指标,一目了然</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📑</div>
+                    <h3>智能报表系统</h3>
+                    <p>自动化报表生成,支持多维度分析,提升工作效率</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>数据分析与挖掘</h3>
+                    <p>深度数据分析,挖掘数据背后的价值与规律</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>KPI监控仪表盘</h3>
+                    <p>关键绩效指标实时监控,及时发现问题与机会</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔮</div>
+                    <h3>预测分析模型</h3>
+                    <p>基于AI的预测分析,为未来决策提供科学依据</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>数据治理平台</h3>
+                    <p>完善的数据治理体系,确保数据质量与安全</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="detailed-section" id="detailed">
+        <div class="container">
+            <div class="section-title">
+                <h2>服务详细介绍</h2>
+                <p>深入了解每项数据服务的具体内容和价值</p>
+            </div>
+            <div class="detailed-grid">
+                <div>
+                    <div class="detail-item">
+                        <h3>📊 数据可视化大屏</h3>
+                        <p>炫酷的数据可视化大屏,实时展示关键指标,一目了然</p>
+                        <ul>
+                            <li>大屏模板库,快速搭建</li>
+                            <li>多图表类型支持</li>
+                            <li>实时数据刷新</li>
+                            <li>响应式布局设计</li>
+                            <li>交互式数据探索</li>
+                            <li>自定义主题样式</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>📑 智能报表系统</h3>
+                        <p>自动化报表生成,支持多维度分析,提升工作效率</p>
+                        <ul>
+                            <li>拖拽式报表设计</li>
+                            <li>多种数据源支持</li>
+                            <li>自动化定时推送</li>
+                            <li>多维度数据透视</li>
+                            <li>报表权限管理</li>
+                            <li>在线协作与评论</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>🔍 数据分析与挖掘</h3>
+                        <p>深度数据分析,挖掘数据背后的价值与规律</p>
+                        <ul>
+                            <li>描述性统计分析</li>
+                            <li>诊断性分析</li>
+                            <li>预测性分析建模</li>
+                            <li>规范性分析</li>
+                            <li>机器学习算法</li>
+                            <li>数据挖掘工具</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="detail-item">
+                        <h3>📈 KPI监控仪表盘</h3>
+                        <p>关键绩效指标实时监控,及时发现问题与机会</p>
+                        <ul>
+                            <li>KPI指标体系构建</li>
+                            <li>实时数据监控</li>
+                            <li>异常告警提醒</li>
+                            <li>趋势分析图表</li>
+                            <li>目标达成率分析</li>
+                            <li>多维度钻取分析</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>🔮 预测分析模型</h3>
+                        <p>基于AI的预测分析,为未来决策提供科学依据</p>
+                        <ul>
+                            <li>销量预测模型</li>
+                            <li>客户流失预测</li>
+                            <li>风险预警模型</li>
+                            <li>需求预测分析</li>
+                            <li>趋势预测算法</li>
+                            <li>模型效果评估</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-item">
+                        <h3>🎯 数据治理平台</h3>
+                        <p>完善的数据治理体系,确保数据质量与安全</p>
+                        <ul>
+                            <li>数据质量管理</li>
+                            <li>数据标准管理</li>
+                            <li>元数据管理</li>
+                            <li>数据血缘追踪</li>
+                            <li>数据安全管理</li>
+                            <li>数据生命周期管理</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>核心优势</h2>
+                <p>选择我们数据分析服务的六大理由</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-number">01</div>
+                    <h4>专业团队</h4>
+                    <p>资深数据分析师,多年行业经验</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">02</div>
+                    <h4>技术领先</h4>
+                    <p>采用最新BI技术,功能强大</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">03</div>
+                    <h4>灵活配置</h4>
+                    <p>支持自定义配置,满足个性化需求</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">04</div>
+                    <h4>实时分析</h4>
+                    <p>实时数据处理,快速响应业务</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">05</div>
+                    <h4>易于使用</h4>
+                    <p>简洁友好的界面,降低学习成本</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">06</div>
+                    <h4>持续优化</h4>
+                    <p>持续改进模型,提升分析准确度</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>🏢 誉隆科技</h3>
+                    <p>天津誉隆科技有限公司是一家专业的企业数智化服务商,致力于为企业提供优质的数字化解决方案。</p>
+                    <p>秉承"信誉筑基·兴隆有道"的理念,助力企业实现数字化转型。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速导航</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="#services">核心服务</a></li>
+                        <li><a href="#detailed">详细介绍</a></li>
+                        <li><a href="#benefits">核心优势</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>业务介绍</h4>
+                    <ul>
+                        <li><a href="oa-platform.html">OA协同办公</a></li>
+                        <li><a href="security-services.html">网络安全服务</a></li>
+                        <li><a href="server-parking.html">机房建设</a></li>
+                        <li><a href="smart-security.html">智慧停车</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li>📞 +86 138 1001 8676</li>
+                        <li>✉️ service@yulongit.com</li>
+                        <li>📍 天津市</li>
+                        <li><a href="index.html#contact">在线咨询</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 天津誉隆科技有限公司 版权所有 | 专业的企业数智化服务商</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
