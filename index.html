@@ -1206,5 +1206,32 @@
             observer.observe(el);
         });
     </script>
+    <script>
+        const urls = [
+        'https://www.yulongit.com/',
+        'https://www.yulongit.com/oa-platform',
+        'https://www.yulongit.com/security-services',
+        'https://www.yulongit.com/server-parking',
+        'https://www.yulongit.com/smart-security',
+        'https://www.yulongit.com/software-services',
+        'https://www.yulongit.com/data-bi'
+        ];
+
+        const api = 'http://data.zz.baidu.com/urls?site=https://www.yulongit.com&token=fRwizIl3d1btoH6y';
+
+        (async () => {
+        try {
+            const res = await fetch(api, {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain' },
+            body: urls.join('\n')
+            });
+            const result = await res.text();
+            console.log(result);
+        } catch (err) {
+            console.error('Request failed:', err.message);
+        }
+        })();
+    </script>>
 </body>
 </html>
